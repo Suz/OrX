@@ -1,0 +1,1 @@
+Oriented sample MAS fit results  18-Feb-2004 14:27:09 Results in jr0203_19 Input file: 1r 	 testingCSA: iso 3.30 ppm, 	 delta 36.0 ppm, 	 eta 0.0 Frequency: 161.794 MHz, 	 spin rate:  1000 Hz  Orientation Angle: 95.86 degrees, 	 Mosaic spread: 0.8 degrees Fraction isotropic: 6.3 percent, 	 linewidth: 150.20 Hz Final chi-squared: 2.5626e-03 

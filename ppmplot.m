@@ -1,0 +1,1 @@
+function done = ppmplot(ax, spect);%% plots spectrum (reversed) on axis (reversed);% used for plotting on a ppm scale% SRK 02-17-2004done = 0;npts = length(spect);plot(ax,spect(npts:-1:1),'k'); % currently prints everything blackset(gca,'XDir','reverse'); xlabel('ppm'); done = 1;

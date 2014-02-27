@@ -1,0 +1,1 @@
+function GaussianWeights = calcGaussian(x,mu,sig)%% function to calculate Gaussian Weighting Curve% originally for use with fitting orientational 31P% MAS NMR data% x is axis values, mu is centroid, sig is 1/2 width%% 10-2-2004 SRKiihnecoeff = sig*sqrt(2*pi);exponent = ((2*(sig^2))^-1)*((x-mu).^2);GaussianWeights = (1/coeff)*exp(-1*exponent);  

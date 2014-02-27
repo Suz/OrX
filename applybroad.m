@@ -1,0 +1,1 @@
+function spect = applybroad(spect,window);% apply NMR windowing function to simulated spectra% SRK 10-02-2004fid = ifft(spect);fid = fid.*window;spect = fft(fid);

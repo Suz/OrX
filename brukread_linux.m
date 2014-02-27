@@ -1,0 +1,1 @@
+function [mat,num_pts] = brukread_linux(filename)%%function for reading Bruker data.  32 bit unsigned%key = fopen(filename,'r','l');[mat,num_pts] = fread(key,inf,'int32');fclose(key)
